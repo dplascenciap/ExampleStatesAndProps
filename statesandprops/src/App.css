@@ -1,3 +1,6 @@
+/* Removing original format */
+
+/*
 .App {
   text-align: center;
 }
@@ -35,4 +38,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+
+.home {
+  min-height: 100vh;
+  background-color: rgb(22, 57, 121);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
