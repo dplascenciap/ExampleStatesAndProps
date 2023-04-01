@@ -3,8 +3,8 @@ import './App.css';
 
 // Import components
 import Nav from './components/Nav';
-
 import Tweets from './components/Tweets';
+import Views from './components/Views';
 
 /** The following code is an example of how to use props
  * I'll comment it to start a new App() and demonstrate the use of states
@@ -53,6 +53,7 @@ function App() {
     <h2>Counter {counter}</h2>
     <button onClick={incrementer}>Increment Counter</button>
     <button onClick={toggleClass}>Toggle Active</button>
+    <Views numberOfViews={counter} parentToggle={toggle} parentToggleClass={toggleClass}/>
   </div>
   );
 }
